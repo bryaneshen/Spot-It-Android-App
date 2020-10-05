@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="ca.cmpt276.finddamatch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/damatch_icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:requestLegacyExternalStorage="true"
+        tools:targetApi="q">
+        <activity
+            android:name=".MyPhotosActivity"
+            android:label="@string/my_photos"
+            android:parentActivityName=".OptionsActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".photogalleryactivity.DownloadedPhotosActivity"
+            android:label="@string/downloaded_photos"
+            android:parentActivityName=".photogalleryactivity.PhotoGalleryActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".HighScoresActivity"
+            android:label="@string/high_scores_action_bar"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".HelpMenuActivity"
+            android:label="@string/help_screen_action_bar"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".OptionsActivity"
+            android:label="@string/options_screen_action_bar"
+            android:parentActivityName=".MainMenuActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".photogalleryactivity.PhotoGalleryActivity"
+            android:label="@string/photo_gallery_action_bar"
+            android:parentActivityName=".OptionsActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".photogalleryactivity.SingleFragmentActivity"
+            android:label="@string/photo_gallery_action_bar"
+            android:parentActivityName=".OptionsActivity"
+            android:screenOrientation="landscape"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".GameActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+        <activity
+            android:name=".SplashScreenActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainMenuActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.NoActionBar"
+            tools:ignore="LockedOrientationActivity" />
+    </application>
+
+</manifest>

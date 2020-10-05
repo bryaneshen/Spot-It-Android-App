@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/high_scores_backup"
+    tools:context=".HighScoresActivity">
+
+    <ImageView
+        android:id="@+id/highscoresTitleImage"
+        android:layout_width="1302dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="19dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/high_scores_description"
+        android:paddingTop="20dp"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/highscores_image" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="1234dp"
+        android:layout_height="545dp"
+        android:layout_marginBottom="2dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/ResetScores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"/>
+
+        <ListView
+            android:id="@+id/highScoresList_threeImagesSevenCards"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ResetScores"
+        android:layout_width="250dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="4dp"
+        android:adjustViewBounds="true"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/resets_high_score"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/resetbuttonimage" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

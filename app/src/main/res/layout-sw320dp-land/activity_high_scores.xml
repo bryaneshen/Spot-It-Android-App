@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/high_scores_backup"
+    tools:context=".HighScoresActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/highscoresTitleImage"
+            android:layout_width="650dp"
+            android:layout_height="69dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/high_scores_description"
+            android:paddingTop="20dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/highscores_image" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp" />
+
+        <ListView
+            android:id="@+id/highScoresList_threeImagesSevenCards"
+            android:layout_width="606dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="16dp">
+
+        </ListView>
+
+        <ImageButton
+            android:id="@+id/ResetScores"
+            android:layout_width="250dp"
+            android:layout_height="57dp"
+            android:adjustViewBounds="true"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/resets_high_score"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/resetbuttonimage" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

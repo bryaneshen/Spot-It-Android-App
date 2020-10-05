@@ -1,0 +1,3 @@
+Scrum Master: Bryan Edward Shen
+Product Owner: Oliver Yalcin Wells
+Repo Manager: Jason Esquilona

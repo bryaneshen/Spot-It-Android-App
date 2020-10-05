@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">Find daMatch</string>
+    <string name="app_title_description">App Title Find daMatch</string>
+    <string name="game_creators_description">Game created by Oliver, Jason and Bryan</string>
+    <string name="skip_button_description">skip button</string>
+    <string name="main_menu_description">Main Menu</string>
+    <string name="start_game_description">Start Game</string>
+    <string name="options_button_description">Options Button</string>
+    <string name="help_button_description">Help Button</string>
+    <string name="high_scores_description">High Scores</string>
+    <string name="options_screen_title">Options Title: Select a Theme</string>
+    <string name="discard_pile">(discard pile)</string>
+    <string name="draw_pile">(draw pile)</string>
+    <string name="help_screen_text">There are seven images and two piles of cards; the discard pile (left) and the
+    draw pile (right). In the draw pile, click the matching image in the discard pile. Your goal
+    is to find all the matching images as fast as possible.</string>
+    <string name="highscore_dialog_hint">Please enter your name</string>
+    <string name="you_have_won">You have succsesfully completed a game of FindDaMatch. If you would like to save your score please enter your name</string>
+    <string name="high_scores_action_bar">High Scores</string>
+    <string name="help_screen_action_bar">Help</string>
+    <string name="options_screen_action_bar">Options</string>
+    <string name="photo_gallery_action_bar">Photo Gallery</string>
+    <string name="resets_high_score">Resets HIgh Score</string>
+    <string name="highscore_list_element"> %1$d seconds %2$s %3$s.</string>
+    <string name="rules_of_the_game_title_description">Rules of The Game Title</string>
+    <string name="dialog_title_congratulations">Congratulations!</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_save">Save</string>
+    <string name="numImages">%1$d images</string>
+    <string name="numCards">%1$s cards</string>
+    <string name="button_to_launch_flickr">Button to launch Flickr</string>
+    <string name="photo_gallery_item_template">Photo Gallery Item template</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear Search</string>
+    <string name="delete_image_toast_message">Hold to delete image</string>
+    <string name="downloads">Downloads</string>
+    <string name="downloaded_photos">Downloads</string>
+    <string name="downloading_image_toast">Downloading Image</string>
+    <string name="default_num_of_cards_toast">By default, the number of cards in deck is set to 5.</string>
+    <string name="choose_valid_number_toast">Please choose a valid number</string>
+    <string name="select_right_amount_toast">Please select the right amount of images</string>
+    <string name="export_dialog">Would you like to export the cards to Google Photos?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="dialog_title_export">Export Cards to Gallery?</string>
+    <string name="export_toast">The cards are exported to the Google Photos app.</string>
+    <string name="options_export_toast">The cards will be exported to the Google Photos app at the end of the game.</string>
+    <string name="my_photos">My Photos</string>
+    <string name="choose_photos">"Choose Photos "</string>
+
+
+    <string-array name="GameModes">
+        <item>3 Images, 5 cards</item>
+        <item>4 Images, 5 cards</item>
+        <item>6 Images, 5 cards</item>
+        <item>4 Images, 10 cards</item>
+        <item>6 Images, 10 cards</item>
+        <item>6 Images, 15 cards</item>
+        <item>6 Images, 20 cards</item>
+        <item>3 Images, All cards</item>
+        <item>4 Images, All cards</item>
+        <item>6 Images, All cards</item>
+    </string-array>
+
+    <string-array name = "ImageSets">
+        <item> Set One</item>
+        <item> Set Two</item>
+        <item> Set One with Words</item>
+        <item> Set Two with Words</item>
+        <item> Custom Image Set</item>
+        <item> Gallery Image Set</item>
+    </string-array>
+
+    <string-array name = "NumOfImages">
+        <item> 3 Images</item>
+        <item> 4 Images</item>
+        <item> 6 Images</item>
+    </string-array>
+
+    <string-array name = "NumOfCards">
+        <item> 5 Cards</item>
+        <item> 10 Cards</item>
+        <item> 15 Cards</item>
+        <item> 20 Cards</item>
+        <item> All Cards</item>
+    </string-array>
+
+    <string-array name = "exportImagesOptions">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="Modes">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+</resources>
